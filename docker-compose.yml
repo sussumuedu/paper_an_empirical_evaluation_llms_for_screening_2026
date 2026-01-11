@@ -1,0 +1,14 @@
+services:
+  ambiente_llms_rev_sist_prof_danilo:
+    image: container_llms_rev_sist_prof_danilo
+    container_name: container_llms_rev_sist_prof_danilo
+    ports:
+      - "8888:8888"
+      - "8501:8501"
+      - "8502:8502"
+      - "8503:8503"
+    volumes:
+      - "C:\\Users\\sussu\\Desktop\\doutorado\\prof_danilo\\ambiente_analises\\llms_rev_sistematica:/data"
+      - "C:\\Users\\sussu\\Desktop\\doutorado\\prof_danilo\\ambiente_analises\\llms_rev_sistematica:\\codigos:/codigos"
+      - "C:\\Users\\sussu\\Desktop\\doutorado\\prof_danilo\\ambiente_analises\\llms_rev_sistematica:\\base_conhecimento:/base_conhecimento"
+    

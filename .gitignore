@@ -1,0 +1,30 @@
+# Arquivos de ambiente
+.env
+*.env
+
+# csv
+# *.csv
+# *.xlsx
+# *.xls
+# *.xlsm
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Checkpoints de notebooks
+*.ipynb_checkpoints
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Arquivos do Jupyter que não interessam
+*.checkpoint.ipynb
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
