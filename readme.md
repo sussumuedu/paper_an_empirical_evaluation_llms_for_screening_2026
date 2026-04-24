@@ -1,6 +1,6 @@
-# Beyond Accuracy: LLM Variability in Evidence Screening (cs.SE) — Reproducibility Package
+# An Empirical Evaluation of LLMs for Screening in Systematic Literature Reviews — Reproducibility Package
 
-This repository contains the code and artifacts used in the manuscript **“Beyond Accuracy: LLM Variability in Evidence Screening for Software Engineering SLRs.”** The workflow is organized into **four experimental phases (Phase 0–3)**, aligned with the manuscript’s methodological structure:
+This repository contains the code and artifacts used in the manuscript **“An Empirical Evaluation of LLMs for Screening in Systematic Literature Reviews: Variability, Metadata Dependence, and Comparison with Classical Machine Learning”** The workflow is organized into **four experimental phases (Phase 0–3)**, aligned with the manuscript’s methodological structure:
 
 - **Phase 0 — Dataset preparation:** consolidation of SLR1/SLR2 candidate sets and metadata (title, abstract, keywords) with original include/exclude decisions.
 - **Phase 1 — LLM screening (cross-provider):** comparative screening runs across multiple LLM providers/models under a controlled protocol.
